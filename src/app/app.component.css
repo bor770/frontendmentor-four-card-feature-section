@@ -28,3 +28,23 @@ p {
   letter-spacing: 0.1px;
   line-height: 1.65;
 }
+
+@media (min-width: 90rem) {
+  :host {
+    padding: 5.35rem 11.458% 5rem;
+  }
+
+  header {
+    margin-bottom: 4rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    margin: auto;
+    width: 32rem;
+  }
+}

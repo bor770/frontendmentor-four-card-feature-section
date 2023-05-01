@@ -3,3 +3,11 @@
   flex-direction: column;
   gap: 1.562rem;
 }
+
+@media (min-width: 90rem) {
+  :host {
+    display: grid;
+    grid-template-columns: repeat(3, 21.875rem);
+    grid-template-rows: repeat(2, 15.625rem);
+  }
+}
