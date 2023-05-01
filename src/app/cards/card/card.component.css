@@ -1,18 +1,21 @@
-.card {
-  text-align: left;
+:host {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.title {
+.container {
+  border-top: 4px solid;
+  padding: 1.45rem 9.524%;
+}
+
+h2 {
   color: var(--color-neutral-very-dark-blue);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
-.subtitle {
+p {
   color: var(--color-neutral-grayish-blue);
-  font-size: 0.8rem;
-}
-
-.content {
-  text-align: right;
+  font-size: 0.83rem;
 }

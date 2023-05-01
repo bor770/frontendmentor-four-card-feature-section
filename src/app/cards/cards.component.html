@@ -1,5 +1,6 @@
 <app-card
   *ngFor="let card of cards"
+  class="mat-elevation-z6"
   [cardParams]="card"
   [ngStyle]="{ order: card.order }"
 ></app-card>
