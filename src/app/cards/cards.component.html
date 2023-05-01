@@ -1,0 +1,5 @@
+<app-card
+  *ngFor="let card of cards"
+  [cardParams]="card"
+  [ngStyle]="{ order: card.order }"
+></app-card>

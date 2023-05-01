@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  --color-primary-red: hsl(0, 78%, 62%);
+  --color-primary-cyan: hsl(180, 62%, 55%);
+  --color-primary-orange: hsl(34, 97%, 64%);
+  --color-primary-blue: hsl(212, 86%, 64%);
+
+  --color-neutral-very-dark-blue: hsl(234, 12%, 34%);
+  --color-neutral-grayish-blue: hsl(229, 6%, 66%);
+  --color-neutral-very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  background-color: var(--color-neutral-very-light-gray);
+  font-family: "Poppins", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.937rem;
+  /* padding: 5.2rem 8%; */
+}

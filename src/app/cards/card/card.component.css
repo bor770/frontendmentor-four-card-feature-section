@@ -1,0 +1,18 @@
+.card {
+  text-align: left;
+}
+
+.title {
+  color: var(--color-neutral-very-dark-blue);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: var(--color-neutral-grayish-blue);
+  font-size: 0.8rem;
+}
+
+.content {
+  text-align: right;
+}
