@@ -7,8 +7,12 @@
 
 @media (min-width: 90rem) {
   :host {
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 21.875rem);
-    grid-template-rows: repeat(2, 15.625rem);
+    grid-template-areas:
+      "supervisor team-builder calculator"
+      "supervisor karma        calculator";
+    grid-template-columns: repeat(3, 31.531%);
+    justify-content: space-between;
   }
 }
