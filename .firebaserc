@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "frontendmentor-four-card": {
+      "hosting": {
+        "four-card-feature-section": [
+          "frontendmentor-four-card"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "frontendmentor-four-card"
+  }
+}
